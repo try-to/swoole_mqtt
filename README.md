@@ -79,12 +79,11 @@ Run with command ```php publish.php```
 
 -------------------------------------------------------
 
-### __construct (string $address, [array $options])
+### __construct (string $host, int $port, [array $options])
 
-Create an instance by $address and $options.
-
-  * `$address` can be on the following protocols: 'mqtt', 'mqtts', 'mqtt://test.mosquitto.org:1883'. 
-
+  * `$host` Service address. 
+  * `$port` port.
+  
   * `$options` is the client connection options. Defaults:
     * `keepalive`: `50` seconds, set to `0` to disable
     * `client_id`: client id, default `swoole-mqtt-client-{$mt_rand}`
