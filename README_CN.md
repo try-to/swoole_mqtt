@@ -64,6 +64,7 @@ $mqtt->connect();
 
   * Client::__construct()
   * Client::connect()
+  * Client::reconnect()
   * Client::publish()
   * Client::subscribe()
   * Client::unsubscribe()
@@ -109,6 +110,12 @@ $mqtt->connect();
 ### connect()
 
 连接服务
+
+-------------------------------------------------------
+
+### reconnect()
+
+重新连接服务
 
 -------------------------------------------------------
 

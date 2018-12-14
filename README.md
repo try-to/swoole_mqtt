@@ -67,6 +67,7 @@ Run with command ```php publish.php```
 
   * Client::__construct()
   * Client::connect()
+  * Client::reconnect()
   * Client::publish()
   * Client::subscribe()
   * Client::unsubscribe()
@@ -111,7 +112,13 @@ Run with command ```php publish.php```
 
 ### connect()
 
-Connect to broker specified by the given $address and $options in `__construct($host, $port, $options)`.
+Connect service  `__construct($host, $port, $options)`.
+
+-------------------------------------------------------
+
+### reconnect()
+
+Reconnect service  `__construct($host, $port, $options)`.
 
 -------------------------------------------------------
 
