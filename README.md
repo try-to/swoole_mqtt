@@ -5,7 +5,7 @@ Asynchronous MQTT client for PHP based on swoole.
 composer require try-to/swoole_mqtt
 
 # 文档
-[中文文档](#)
+[中文文档](https://github.com/try-to/swoole_mqtt/blob/master/README_CN.md)
 
 # Example
 **subscribe.php**
@@ -83,7 +83,7 @@ Run with command ```php publish.php```
 
   * `$host` Service address. 
   * `$port` port.
-  
+
   * `$options` is the client connection options. Defaults:
     * `keepalive`: `50` seconds, set to `0` to disable
     * `client_id`: client id, default `swoole-mqtt-client-{$mt_rand}`

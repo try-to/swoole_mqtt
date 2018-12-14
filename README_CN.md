@@ -4,7 +4,6 @@
 # 安装
 composer require try-to/swoole_mqtt
 
-
 # Example
 **subscribe.php**
 ```php
