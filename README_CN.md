@@ -86,7 +86,7 @@ $mqtt->connect();
 
   * `$options` 客户端选项数组，可以设置以下选项：
     * `keepalive`: 默认50秒，设置成0代表禁用
-    * `client_id`: 客户端id，如果没设置默认是 "workerman-mqtt-client-".mt_rand()
+    * `client_id`: 客户端id，如果没设置默认是 "swoole-mqtt-client-".mt_rand()
     * `protocol_name`: 协议名，MQTT(3.1.1版本)或者 MQIsdp(3.1版本)，默认是MQTT
     * `protocol_level`: 协议等级， protocol_name是MQTT 时值为4 ，protocol_name是MQIsdp 时值是 3
     * `clean_session`: 清理会话，默认为true。设置为false可以接收到QoS 1和QoS 2级别的离线消息
