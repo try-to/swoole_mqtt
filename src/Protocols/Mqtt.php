@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * https://github.com/walkor/mqtt/blob/master/src/Protocols/Mqtt.php
+ */
 namespace TrytoMqtt\Protocols;
 
 /**
